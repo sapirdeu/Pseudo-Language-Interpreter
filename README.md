@@ -1,4 +1,4 @@
-# Pseudo-Language Interpreter-
+# Pseudo-Language Interpreter
 
 # FlightGear simulator first milestone:
 FlightGear Simulator visualize a real plane with it's system, controlled by a multi-threaded code that represents both the server and the client, that send data to the simulator and receive data from it. 
