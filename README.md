@@ -16,14 +16,14 @@ In order to connect as a server we create an OpenServerCommand object which rece
 After the connection as a server and as a client is set, the plane in the simulator warms it’s engine and takes off.  
 
 ## Installation:
-in order to install the FlightGear simulator type the following commands in the terminal on your computer:
+in order to install the FlightGear simulator type the following commands in the terminal on your computer:  
 ```
 sudo apt-get update
 sudo apt-get install flightgear
 ```
 
 ## Excecuting the program:
-you should put the “generic_small.xml” in the same folder of where the simulator was installed using the command:
+you should put the “generic_small.xml” in the same folder of where the simulator was installed using the command:  
 `sudo cp src_path simulator_path`  
 you should put the txt file, for example fly.txt in the same folder with the project files, now we are ready to compile and run the program using the commands:
 ```
