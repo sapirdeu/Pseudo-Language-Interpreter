@@ -1,6 +1,5 @@
 # Pseudo-Language Interpreter
 
-# FlightGear simulator first milestone:
 FlightGear Simulator visualize a real plane with it's system, controlled by a multi-threaded code that represents both the server and the client, that send data to the simulator and receive data from it. 
 This is the first milestone, which focuses on building an interpreter for a new programming language- our input is a txt file written in a new programming language, for example fly.txt in the appendix.
 The interpreter will go over the lines in the txt file, those are written in a new programming language, and will interpret them (lexer, parser and execute), similar to the JVM process.
@@ -15,7 +14,7 @@ In addition, the project communicates with the FlightGear simulator both as a cl
 In order to connect as a server we create an OpenServerCommand object which receives port number, and in order to connect as a client we create a ConnectCommand object which receives ip and port number (Those are created by the parser as explained above).
 After the connection as a server and as a client is set, the plane in the simulator warms it’s engine and takes off.
 
-## Installation
+## Installation:
 in order to install the FlightGear simulator type the following commands in the terminal on your computer:
 sudo apt-get update
 sudo apt-get install flightgear
